@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="Assets/css/BlogStyles.css" />
+    <link rel="stylesheet" href="Assets/css/blogpost-grid.css" />
+    <link rel="stylesheet" href="Assets/css/Comments.css" />
+    <link rel="stylesheet" href="Assets/css/Display.css" />
+    <link rel="stylesheet" href="Assets/css/Gallery.css" />
+  </head>
+  <body>
+    <div class="blog-post-grid-container">
+      <header class="post-header">
+        <h1>Squirrel Code Blog</h1>
+        <p>Art, Technology, Community—One Squirrelly Thought at a Time.</p>
+        <aside>
+          <a href="index.html" class="back-to-home">Back to Home</a>
+        </aside>
+      </header>
+
+      <main class="post-content">
+        <h2>Welcome to Squirrel Code Blog!</h2>
+        <p>
+          Hey there, and welcome to Squirrel Code Blog—a space where art,
+          technology, and creativity collide, with a little squirrelly energy
+          sprinkled in!
+        </p>
+        <p>
+          I’m so excited to share this journey with you as I work toward
+          becoming my most creative self. If you’re here, you might be a little
+          like me—someone whose mind jumps from idea to idea, fueled by
+          curiosity, a love for creating, and an urge to see where art and
+          technology can take us.
+        </p>
+      </main>
+
+      <aside class="post-sidebar">
+        <h3>Related Posts</h3>
+        <ul>
+          <li><a href="#">Related Post 1</a></li>
+          <li><a href="#">Related Post 2</a></li>
+          <li><a href="#">Related Post 3</a></li>
+        </ul>
+      </aside>
+
+      <footer class="post-footer">
+        <section class="comments-section">
+          <h2>Comments</h2>
+
+          <form class="comment-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="comment">Your Comment:</label>
+            <textarea id="comment" name="comment" rows="5" required></textarea>
+
+            <button type="submit">Post Comment</button>
+          </form>
+
+          <div class="comments-display">
+            <div class="comment">
+              <p><strong>Atomic Sprout:</strong></p>
+              <p>This is a great blog post! Really enjoyed it.</p>
+            </div>
+            <div class="comment">
+              <p><strong>Roman's Revenge:</strong></p>
+              <p>Thanks for sharing this information. It was helpful.</p>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
